@@ -1,0 +1,28 @@
+{
+  "id": "hellopy",
+  "container": {
+    "type": "DOCKER",
+    "docker": {
+      "image": "pekermert/hellopy:4b144a069cb7794f822f8f664e33fd1b85fafa60",
+      "forcePullImage": true,
+      "network": "BRIDGE",
+      "portMappings": [
+        {
+          "containerPort": 3000,
+          "hostPort": 0,
+          "servicePort": 0,
+          "protocol": "tcp"
+        }
+      ]
+    }
+  },
+  "labels": {
+    "App": "test-apps"
+  },
+  "uris": [
+    
+  ],
+  "instances": 1,
+  "cpus": 0.1,
+  "mem": 512
+}

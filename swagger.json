@@ -1,5 +1,5 @@
 {
-  "id": "hellopy",
+  "id": "swagger",
   "container": {
     "type": "DOCKER",
     "volumes": [],

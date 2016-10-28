@@ -8,7 +8,7 @@
       "network": "BRIDGE",
       "portMappings": [
         {
-          "containerPort": 3000,
+          "containerPort": 5000,
           "hostPort": 0,
           "servicePort": 0,
           "protocol": "tcp"
@@ -19,9 +19,6 @@
   "labels": {
     "App": "test-apps"
   },
-  "uris": [
-    
-  ],
   "instances": 1,
   "cpus": 0.1,
   "mem": 512
